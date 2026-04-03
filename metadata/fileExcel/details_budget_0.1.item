@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_elbxECuMEfGeEchu3OgsmQ" name="details_budget" dataPackage="_elbxESuMEfGeEchu3OgsmQ _hANtQCuTEfGeEchu3OgsmQ" Server="Localhost 127.0.0.1" FilePath="C:/Users/moate/Desktop/ExternData/Détails des Coûts de Camp (Dinars).xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Sheet1" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Sheet1:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_elbxESuMEfGeEchu3OgsmQ" name="default" dataManager="_elbxECuMEfGeEchu3OgsmQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_elbxEiuMEfGeEchu3OgsmQ" id="_VUVZICuMEfGeEchu3OgsmQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_elbxEyuMEfGeEchu3OgsmQ" label="Camp" length="27" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_elbxFCuMEfGeEchu3OgsmQ" label="Transport" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_elbxFSuMEfGeEchu3OgsmQ" label="Nourriture" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_elbxFiuMEfGeEchu3OgsmQ" label="Equipement" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_elbxFyuMEfGeEchu3OgsmQ" label="Sante_Securite" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_elbxGCuMEfGeEchu3OgsmQ" label="Organisation" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_elbxGSuMEfGeEchu3OgsmQ" label="Total" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_hANtQCuTEfGeEchu3OgsmQ" name="default" dataManager="_elbxECuMEfGeEchu3OgsmQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_hANtQSuTEfGeEchu3OgsmQ" id="_XEC_ECuTEfGeEchu3OgsmQ" label="metadata1">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hANtQiuTEfGeEchu3OgsmQ" label="Camp" length="27" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hANtQyuTEfGeEchu3OgsmQ" label="Transport" length="-1" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hANtRCuTEfGeEchu3OgsmQ" label="Nourriture" length="-1" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hANtRSuTEfGeEchu3OgsmQ" label="Equipement" length="-1" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hANtRiuTEfGeEchu3OgsmQ" label="Sante_Securite" length="-1" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hANtRyuTEfGeEchu3OgsmQ" label="Organisation" length="-1" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hANtSCuTEfGeEchu3OgsmQ" label="Total" length="-1" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

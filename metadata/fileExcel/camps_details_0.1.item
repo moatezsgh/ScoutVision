@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_IfpwgCruEfGMzsUFEKju-A" name="camps_details" id="_IfIMECruEfGMzsUFEKju-A" dataPackage="_IfpwgSruEfGMzsUFEKju-A _kceHECr2EfGMzsUFEKju-A" Server="Localhost 127.0.0.1" FilePath="C:/Users/moate/Desktop/ExternData/Camps_Detailles.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Sheet1" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Sheet1:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_IfpwgSruEfGMzsUFEKju-A" name="default" dataManager="_IfpwgCruEfGMzsUFEKju-A">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_IfpwgiruEfGMzsUFEKju-A" id="_771DkCrtEfGMzsUFEKju-A" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IfpwgyruEfGMzsUFEKju-A" label="_023_2024" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IfpwhCruEfGMzsUFEKju-A" label="Camp_de_printemps" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IfpwhSruEfGMzsUFEKju-A" label="_5" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IfpwhiruEfGMzsUFEKju-A" label="Column3" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IfpwhyruEfGMzsUFEKju-A" label="_200" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_kceHECr2EfGMzsUFEKju-A" name="default" dataManager="_IfpwgCruEfGMzsUFEKju-A">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_kceHESr2EfGMzsUFEKju-A" id="_iC95ECr2EfGMzsUFEKju-A" label="metadata1">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kceHEir2EfGMzsUFEKju-A" label="Saison" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kceHEyr2EfGMzsUFEKju-A" label="Type_de_Camp" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kceHFCr2EfGMzsUFEKju-A" label="Participants" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kceHFSr2EfGMzsUFEKju-A" label="Duree__jours" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kceHFir2EfGMzsUFEKju-A" label="Budget_Total__Dinars" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
