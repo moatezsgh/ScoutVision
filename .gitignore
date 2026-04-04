@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.pyc
+*.log
+.vscode/
+.idea/
+
+airflow/logs/
+airflow/extern_data/
+airflow/talend_jobs/
+airflow/.env
+airflow/airflow.cfg
+airflow/standalone_admin_password.txt
